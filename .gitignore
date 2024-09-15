@@ -5,6 +5,7 @@
 *.csv
 *.xml
 *.iml
+*.keras
 
 # User-specific stuff
 .idea/**/workspace.xml

@@ -1,0 +1,13 @@
+[project]
+name = "ai-with-jupyter"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.12"
+dependencies = [
+    "langchain>=0.3.25",
+    "matplotlib>=3.10.3",
+    "pandas>=2.3.0",
+    "polars>=1.30.0",
+    "scikit-learn>=1.7.0",
+    "seaborn>=0.13.2",
+]

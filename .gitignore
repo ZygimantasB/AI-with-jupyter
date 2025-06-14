@@ -6,6 +6,9 @@
 *.xml
 *.iml
 *.keras
+mistral_images
+mistral_images1
+poppler-24.08.0
 
 # User-specific stuff
 .idea/**/workspace.xml

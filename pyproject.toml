@@ -2,14 +2,12 @@
 name = "ai-with-jupyter"
 version = "0.1.0"
 description = "Add your description here"
-requires-python = ">=3.13"
+requires-python = ">=3.12"
 dependencies = [
-    "dotenv>=0.9.9",
-    "langchain>=1.0.2",
-    "matplotlib>=3.10.7",
-    "pandas>=2.3.3",
-    "polars>=1.34.0",
-    "pydantic>=2.12.3",
-    "seaborn>=0.13.2",
+    "google-generativeai>=0.8.5",
+    "lmstudio>=1.5.0",
+    "lmstudio-client>=0.1.0",
+    "openai>=2.6.1",
+    "torch>=2.9.0",
     "transformers>=4.57.1",
 ]

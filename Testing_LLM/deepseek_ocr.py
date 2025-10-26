@@ -14,3 +14,4 @@ image_file = r'D:\Programing\AI-with-jupyter\Images\text_basics_docs_final_docum
 output_path = r'D:\Programing\AI-with-jupyter\Images\output'
 
 res = model.infer(tokenizer, prompt=prompt, image_file=image_file, output_path = output_path, base_size = 1024, image_size = 640, crop_mode=True, save_results = True, test_compress = True)
+

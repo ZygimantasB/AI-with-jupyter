@@ -4,6 +4,7 @@ version = "0.1.0"
 description = "Add your description here"
 requires-python = ">=3.12"
 dependencies = [
+    "acp-sdk>=1.0.3",
     "beautifulsoup4>=4.14.3",
     "flask>=3.1.2",
     "google-generativeai>=0.8.5",
@@ -14,4 +15,5 @@ dependencies = [
     "python-a2a>=0.5.10",
     "torch>=2.9.0",
     "transformers>=4.57.1",
+    "uvicorn==0.34.0",
 ]

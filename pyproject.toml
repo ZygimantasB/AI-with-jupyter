@@ -4,10 +4,13 @@ version = "0.1.0"
 description = "Add your description here"
 requires-python = ">=3.12"
 dependencies = [
+    "beautifulsoup4>=4.14.3",
+    "flask>=3.1.2",
     "google-generativeai>=0.8.5",
     "lmstudio>=1.5.0",
     "lmstudio-client>=0.1.0",
     "openai>=2.6.1",
+    "playwright>=1.57.0",
     "python-a2a>=0.5.10",
     "torch>=2.9.0",
     "transformers>=4.57.1",

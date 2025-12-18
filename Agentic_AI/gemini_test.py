@@ -13,8 +13,8 @@ if not API_KEY:
 genai.configure(api_key=API_KEY)
 
 # Create model and generate content
-model = genai.GenerativeModel("gemini-2.0-flash-lite")
+model = genai.GenerativeModel("gemini-2.5-flash-lite")
 
-response = model.generate_content("Explain how AI works in a few words")
+response = model.generate_content("Can yu browse the internet ?")
 
 print(response.text)

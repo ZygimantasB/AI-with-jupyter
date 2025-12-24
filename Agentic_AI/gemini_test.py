@@ -18,3 +18,4 @@ model = genai.GenerativeModel("gemini-2.5-flash-lite")
 response = model.generate_content("Can yu browse the internet ?")
 
 print(response.text)
+
